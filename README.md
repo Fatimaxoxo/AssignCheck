@@ -1,4 +1,4 @@
-                                       AssignCheck – A Smart Assignment Checker
+                                      ##AssignCheck – A Smart Assignment Checker
 
 Instantly validate, flag and compare every student submission — on time, on format, on point.
 
