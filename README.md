@@ -1,4 +1,4 @@
-                                                                                              AssignCheck – A Smart Assignment Checker
+                                       AssignCheck – A Smart Assignment Checker
 
 Instantly validate, flag and compare every student submission — on time, on format, on point.
 
@@ -6,24 +6,24 @@ Instantly validate, flag and compare every student submission — on time, on fo
 
 ✅ Validate file names – Ensures submissions follow your chosen naming pattern (e.g. `202314XXX.c`).
 
-⏰ Detect late submissions– Compares file timestamps with your deadline.
+✅ Detect late submissions– Compares file timestamps with your deadline.
 
-📝 Multi-format support – Works with `.txt`, `.c`, `.cpp`, `.pdf`, `.l`, `.y` out of the box.
+✅ Multi-format support – Works with `.txt`, `.c`, `.cpp`, `.pdf`, `.l`, `.y` out of the box.
 
-🔍 Similarity detection – Uses sequence matching to spot copy–paste across files.
+✅ Similarity detection – Uses sequence matching to spot copy–paste across files.
 
-🖥 Automatic report generation – Produces a clear text report listing valid files, wrong names, late files and similarity percentages.
+✅ Automatic report generation – Produces a clear text report listing valid files, wrong names, late files and similarity percentages.
 
-🛠 Extensible & configurable – Easily adjust patterns, deadlines and file types for your own class or organisation.
+✅ Extensible & configurable – Easily adjust patterns, deadlines and file types for your own class or organisation.
 
-## 🗂 Project Structure
+🗂 Project Structure
 
 checker.py # Main script
 reports/ # Reports are saved here automatically
 sample_submissions/ # (optional) Example folder with test files
 README.md # This file
 
- 🚀 How to Run:
+- How to Run:
 
 1. Clone or Download -
 ```bash
@@ -43,7 +43,7 @@ Submission deadline (format YYYY-MM-DD HH:MM:SS)
 4. View the Report -
 A new file like report_20240923_153000.txt appears in the reports/ folder and is also printed to the console.
 
-📝 Sample Output:
+📝_Sample Output:_
 
 Enter submissions folder path (or press Enter for current directory): ./submissions
 Enter submission deadline (YYYY-MM-DD HH:MM:SS): 2024-09-30 23:59:59
@@ -70,6 +70,9 @@ i. Change file naming pattern: edit the regex inside check_files() to fit your n
 ii. Add more file types: update the list in get_files() and extract_text() to include new extensions.
 iii. Change similarity threshold: adjust how you interpret the percentage returned by analyze_similarities().
 iv. Report folder: by default reports are saved to a reports folder next to your submissions; change self.report_dir in the constructor to move it elsewhere.
+
+🧠 Next Goal:
+We plan to implement token-wise or fuzzy checking, which compares assignments based on individual words or code tokens rather than exact text, making the checker smarter at detecting similar logic even if variable names or formatting differ.
 
 🤝 Contributing:
 Pull requests are welcome!
