@@ -5,10 +5,15 @@ Instantly validate, flag and compare every student submission — on time, on fo
 ✨ Features:
 
 ✅ Validate file names – Ensures submissions follow your chosen naming pattern (e.g. `202314XXX.c`).
+
 ⏰ Detect late submissions– Compares file timestamps with your deadline.
+
 📝 Multi-format support – Works with `.txt`, `.c`, `.cpp`, `.pdf`, `.l`, `.y` out of the box.
+
 🔍 Similarity detection – Uses sequence matching to spot copy–paste across files.
+
 🖥 Automatic report generation – Produces a clear text report listing valid files, wrong names, late files and similarity percentages.
+
 🛠 Extensible & configurable – Easily adjust patterns, deadlines and file types for your own class or organisation.
 
 ## 🗂 Project Structure
@@ -77,6 +82,11 @@ iii. Integration with an LMS
 
 📄 License:
 This project is open-source. You’re free to use and adapt it for your own courses or organisations under the terms of the MIT License (see LICENSE file if included).
+
+👩‍🎓Contributors:
+1. Tasmia Nasir
+2. Afia Fahmida
+3. Maria Sultana
 
 
 
