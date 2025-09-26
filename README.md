@@ -1,4 +1,4 @@
-                                      ##AssignCheck – A Smart Assignment Checker
+                                    AssignCheck – A Smart Assignment Checker
 
 Instantly validate, flag and compare every student submission — on time, on format, on point.
 
@@ -43,7 +43,7 @@ Submission deadline (format YYYY-MM-DD HH:MM:SS)
 4. View the Report -
 A new file like report_20240923_153000.txt appears in the reports/ folder and is also printed to the console.
 
-📝_Sample Output:_
+📝 Sample Output:
 
 Enter submissions folder path (or press Enter for current directory): ./submissions
 Enter submission deadline (YYYY-MM-DD HH:MM:SS): 2024-09-30 23:59:59
